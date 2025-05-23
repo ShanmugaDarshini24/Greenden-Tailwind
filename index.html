@@ -1,159 +1,269 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Greenden</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-</head>
-<body> 
+  </head>
+  <body>
     <!--responsive navbar-->
-    <nav class="bg-green-200 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
-        <h1 class="text-2xl">GREENDEN</h1>
-        
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 md:hidden">
-           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-        </svg>
+    <nav
+      class="bg-green-200 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10"
+    >
+      <h1 class="text-2xl">GREENDEN</h1>
 
-        <ul class="flex gap-5 text-gray-600 hidden  md:flex">
-            <li>
-                <a class= "hover:underline  hover:text-black" href="index.html">Home</a>
-            </li>
-            <li>
-                <a class= "hover:underline  hover:text-black" href="product.html">Products</a>
-            </li>
-            <li>
-                <a class= "hover:underline hover:text-black" href="index.html">contact</a>
-            </li>
-        </ul>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="size-6 md:hidden"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+        />
+      </svg>
 
+      <ul class="flex gap-5 text-gray-600 hidden md:flex">
+        <li>
+          <a class="hover:underline hover:text-black" href="index.html">Home</a>
+        </li>
+        <li>
+          <a class="hover:underline hover:text-black" href="product.html"
+            >Products</a
+          >
+        </li>
+        <li>
+          <a class="hover:underline hover:text-black" href="index.html"
+            >contact</a
+          >
+        </li>
+      </ul>
     </nav>
-   <!--Header section-->
-   <section class="bg-green-200 p-4 md:10 flex justify-center">
-     
-    <div>
-        <p class="mb-4">We offer you a wide range of Natural and Artificial Flowers and plants</p>
-     <h2 class="font-bold text-3xl md:text-4xl mb-5">Plants for your interior</h2>
+    <!--Header section-->
+    <section class="bg-green-200 p-4 md:10 flex justify-center">
+      <div>
+        <p class="mb-4">
+          We offer you a wide range of Natural and Artificial Flowers and plants
+        </p>
+        <h2 class="font-bold text-3xl md:text-4xl mb-5">
+          Plants for your interior
+        </h2>
 
-     <div>
-        <button class="bg-black rounded p-2 text-white">Shop Now</button>
-        <button class="border border-black rounded p-2 ">Watch Video</button>
-     </div>
+        <div>
+          <button class="bg-black rounded p-2 text-white">Shop Now</button>
+          <button class="border border-black rounded p-2">Watch Video</button>
+        </div>
 
-     <p class="mt-5">160+ Species|100+ Clients</p>
-    </div>
-    <div class="hidden md:block">
-        <img src="./images/header-image.jpg" alt="header image" class="w-80 ">
-    </div>
-   </section>
+        <p class="mt-5">160+ Species|100+ Clients</p>
+      </div>
+      <div class="hidden md:block">
+        <img src="./images/header-image.jpg" alt="header image" class="w-80" />
+      </div>
+    </section>
 
-   <!--About Section-->
-   <section class="text-center">
-    <h1 class="text-3xl font-bold mt-5">About Us</h1>
-    <p>This site for those who admire the beauty and harmony of nature</p>
-     
-    <div class="md:flex" >
+    <!--About Section-->
+    <section class="text-center">
+      <h1 class="text-3xl font-bold mt-5">About Us</h1>
+      <p>This site for those who admire the beauty and harmony of nature</p>
+
+      <div class="md:flex">
         <div class="border border-black p-2 m-6">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-20 inline">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 0 0 2.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 0 0-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25ZM6.75 12h.008v.008H6.75V12Zm0 3h.008v.008H6.75V15Zm0 3h.008v.008H6.75V18Z" />
-</svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-20 inline"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 0 0 2.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 0 0-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25ZM6.75 12h.008v.008H6.75V12Zm0 3h.008v.008H6.75V15Zm0 3h.008v.008H6.75V18Z"
+            />
+          </svg>
 
-            <h2 class="text-xl font-medium">Large Assortment</h2>
-            <p>Greeden, being a platform focused on plant enthusiasts and eco-friendly activities, uses such assessments to
-          engage users, educate them, and enhance their skills.It include personalized feedback, suggestions for
-          improvement, or rewards like badges.To encourage users to improve their green skills and adopt environmentally
-          sustainable habits.To create a community of informed and passionate plant lovers</p>
+          <h2 class="text-xl font-medium">Large Assortment</h2>
+          <p>
+            Greeden, being a platform focused on plant enthusiasts and
+            eco-friendly activities, uses such assessments to engage users,
+            educate them, and enhance their skills.It include personalized
+            feedback, suggestions for improvement, or rewards like badges.To
+            encourage users to improve their green skills and adopt
+            environmentally sustainable habits.To create a community of informed
+            and passionate plant lovers
+          </p>
         </div>
         <div class="border border-black p-2 m-6">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-20 inline">
-               <path d="M9.375 3a1.875 1.875 0 0 0 0 3.75h1.875v4.5H3.375A1.875 1.875 0 0 1 1.5 9.375v-.75c0-1.036.84-1.875 1.875-1.875h3.193A3.375 3.375 0 0 1 12 2.753a3.375 3.375 0 0 1 5.432 3.997h3.943c1.035 0 1.875.84 1.875 1.875v.75c0 1.036-.84 1.875-1.875 1.875H12.75v-4.5h1.875a1.875 1.875 0 1 0-1.875-1.875V6.75h-1.5V4.875C11.25 3.839 10.41 3 9.375 3ZM11.25 12.75H3v6.75a2.25 2.25 0 0 0 2.25 2.25h6v-9ZM12.75 12.75v9h6.75a2.25 2.25 0 0 0 2.25-2.25v-6.75h-9Z" />
-            </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+            class="w-20 inline"
+          >
+            <path
+              d="M1 1.75A.75.75 0 0 1 1.75 1h1.628a1.75 1.75 0 0 1 1.734 1.51L5.18 3a65.25 65.25 0 0 1 13.36 1.412.75.75 0 0 1 .58.875 48.645 48.645 0 0 1-1.618 6.2.75.75 0 0 1-.712.513H6a2.503 2.503 0 0 0-2.292 1.5H17.25a.75.75 0 0 1 0 1.5H2.76a.75.75 0 0 1-.748-.807 4.002 4.002 0 0 1 2.716-3.486L3.626 2.716a.25.25 0 0 0-.248-.216H1.75A.75.75 0 0 1 1 1.75ZM6 17.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0ZM15.5 19a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"
+            />
+          </svg>
+          <h2 class="text-xl font-medium">Free and Fast Shipping</h2>
+          <p>
+            Is designed to enhance customer satisfaction by ensuring a seamless
+            and cost-effective shFast and Free Shipping aims to make online
+            shopping not only quick but also budget-friendly, providing a
+            superior shopping experience for plant lovers and eco-conscious
+            buyers.opping experience. Greeden prioritizes delivering products
+            quickly and efficiently, while eliminating shipping charges to
+            provide added value to its customers.
+          </p>
+        </div>
 
-            <h2 class="text-xl font-medium">Free and Fast Shipping</h2>
-            <p>Is designed to enhance customer satisfaction by ensuring a seamless and cost-effective shFast and Free
-          Shipping aims to make online shopping not only quick but also budget-friendly, providing a superior shopping
-          experience for plant lovers and eco-conscious buyers.opping experience. Greeden prioritizes delivering
-          products quickly and efficiently, while eliminating shipping charges to provide added value to its customers.</div>
         <div class="border border-black p-2 m-6">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-20 inline">
-  <path fill-rule="evenodd" d="M19.5 9.75a.75.75 0 0 1-.75.75h-4.5a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 1 1.5 0v2.69l4.72-4.72a.75.75 0 1 1 1.06 1.06L16.06 9h2.69a.75.75 0 0 1 .75.75Z" clip-rule="evenodd" />
-  <path fill-rule="evenodd" d="M1.5 4.5a3 3 0 0 1 3-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 0 1-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 0 0 6.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 0 1 1.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 0 1-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5Z" clip-rule="evenodd" />
-</svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+            class="w-20 inline"
+          >
+            <path
+              d="M8 16.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"
+            />
+            <path
+              fill-rule="evenodd"
+              d="M4 4a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V4Zm4-1.5v.75c0 .414.336.75.75.75h2.5a.75.75 0 0 0 .75-.75V2.5h1A1.5 1.5 0 0 1 14.5 4v12a1.5 1.5 0 0 1-1.5 1.5H7A1.5 1.5 0 0 1 5.5 16V4A1.5 1.5 0 0 1 7 2.5h1Z"
+              clip-rule="evenodd"
+            />
+          </svg>
 
-            <h2 class="text-xl font-medium">24/7 Support</h2>
-            <p>We are committed to delivering exceptional customer service with our 24/7 Support feature. This service
-          ensures that our customers can get assistance anytime, anywhere, no matter what their query or concern might
-          be.Our support team is always available, day or night, to address customer needs.We focus on providing quick
-          resolutions to ensure customer satisfaction and a seamless shopping experience.</p></div>
-    </div>
-</section>
-<!--best seller-->
-<section class="p-4 text-center">
-    <h1 class=" font-bold mt-5 text-3xl">Best Seller</h1>
-   <div class="grid grid-cols-2 md:grid-cols-3 mt-5 gap-5">
-    <div >
-        <img src="./images/best seller_1.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="bestseller_1" >
-        <h1>Rose Plant</h1>
-        <p>$20</p>
-    </div>
-    <div>
-        <img src="./images/best seller_2.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="bestseller_1">
-        <h1>snake Plant</h1>
-        <p>$50</p>
-    </div>
-    <div>
-        <img src="./images/best seller_3.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="bestseller_1">
-        <h1>Fortune plant</h1>
-        <p>$200</p>
-    </div>
-    <div>
-        <img src="./images/best seller_4.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="bestseller_1">
-        <h1>Golden Pothos</h1>
-        <p>$70</p>
-    </div>
-    <div>
-        <img src="./images/best seller_5.png"class="inline hover:shadow-xl transform hover:-translate-y-2" alt="bestseller_1">
-        <h1>Bougainvillea Bonsai Tree</h1>
-        <p>$1200</p>
-    </div>
-    <div>
-        <img src="./images/best seller_6.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="bestseller_1">
-        <h1>Jade Plant</h1>
-        <p>$150</p>
-    </div>
-   </div>
-</section>
-<!--Coustomer Reviews-->
-<section>
-    <h1 class="text-3xl font:bold mt-5 text-center">Coustomer Reviews</h1>
-    <div class="flex flex-col gap-5 justify-center text-white m-5">
+          <h2 class="text-xl font-medium">24/7 Support</h2>
+          <p>
+            We are committed to delivering exceptional customer service with our
+            24/7 Support feature. This service ensures that our customers can
+            get assistance anytime, anywhere, no matter what their query or
+            concern might be.Our support team is always available, day or night,
+            to address customer needs.We focus on providing quick resolutions to
+            ensure customer satisfaction and a seamless shopping experience.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--best seller-->
+    <section class="p-4 text-center">
+      <h1 class="font-bold mt-5 text-3xl">Best Seller</h1>
+      <div class="grid grid-cols-2 md:grid-cols-3 mt-5 gap-5">
+        <div>
+          <img
+            src="./images/best seller_1.png"
+            class="inline hover:shadow-xl transform hover:-translate-y-2"
+            alt="bestseller_1"
+          />
+          <h1>Rose Plant</h1>
+          <p>$20</p>
+        </div>
+        <div>
+          <img
+            src="./images/best seller_2.png"
+            class="inline hover:shadow-xl transform hover:-translate-y-2"
+            alt="bestseller_1"
+          />
+          <h1>snake Plant</h1>
+          <p>$50</p>
+        </div>
+        <div>
+          <img
+            src="./images/best seller_3.png"
+            class="inline hover:shadow-xl transform hover:-translate-y-2"
+            alt="bestseller_1"
+          />
+          <h1>Fortune plant</h1>
+          <p>$200</p>
+        </div>
+        <div>
+          <img
+            src="./images/best seller_4.png"
+            class="inline hover:shadow-xl transform hover:-translate-y-2"
+            alt="bestseller_1"
+          />
+          <h1>Golden Pothos</h1>
+          <p>$70</p>
+        </div>
+        <div>
+          <img
+            src="./images/best seller_5.png"
+            class="inline hover:shadow-xl transform hover:-translate-y-2"
+            alt="bestseller_1"
+          />
+          <h1>Bougainvillea Bonsai Tree</h1>
+          <p>$1200</p>
+        </div>
+        <div>
+          <img
+            src="./images/best seller_6.png"
+            class="inline hover:shadow-xl transform hover:-translate-y-2"
+            alt="bestseller_1"
+          />
+          <h1>Jade Plant</h1>
+          <p>$150</p>
+        </div>
+      </div>
+    </section>
+    <!--Coustomer Reviews-->
+    <section>
+      <h1 class="text-3xl font:bold mt-5 text-center">Coustomer Reviews</h1>
+      <div class="flex flex-col gap-5 justify-center text-white m-5">
         <div class="bg-green-800 p-5 container">
-            <p>GreenDen has completely transformed my balcony into a mini paradise! Their eco-friendly planters and healthy plants arrived in perfect condition. I love how they combine aesthetics with sustainability. Highly recommended for nature lovers!</p>
-             <p class="font:bold text-yellow-200">Ananya R., Chennai ★★★★</p>
+          <p>
+            GreenDen has completely transformed my balcony into a mini paradise!
+            Their eco-friendly planters and healthy plants arrived in perfect
+            condition. I love how they combine aesthetics with sustainability.
+            Highly recommended for nature lovers!
+          </p>
+          <p class="font:bold text-yellow-200">Ananya R., Chennai ★★★★</p>
         </div>
         <div class="bg-green-800 p-5 container">
-            <p>We collaborated with GreenDen for our office greening initiative. Their team was professional, timely, and delivered excellent quality indoor plants that boosted our workspace ambiance. Great service and impactful results!</p>
-             <p class="font:bold text-yellow-200">Vivek Sharma, HR Manager, SoftTech Pvt. Ltd. ★★★★★</p>
+          <p>
+            We collaborated with GreenDen for our office greening initiative.
+            Their team was professional, timely, and delivered excellent quality
+            indoor plants that boosted our workspace ambiance. Great service and
+            impactful results!
+          </p>
+          <p class="font:bold text-yellow-200">
+            Vivek Sharma, HR Manager, SoftTech Pvt. Ltd. ★★★★★
+          </p>
         </div>
         <div class="bg-green-800 p-5 container">
-            <p>I’ve been buying from GreenDen for the past 6 months. Their products are reliable, and I especially appreciate their biodegradable packaging. A brand that truly cares about nature!</p>
-             <p class="font:bold text-yellow-200">Priya M., Bangalore★★★★★</p>
+          <p>
+            I’ve been buying from GreenDen for the past 6 months. Their products
+            are reliable, and I especially appreciate their biodegradable
+            packaging. A brand that truly cares about nature!
+          </p>
+          <p class="font:bold text-yellow-200">Priya M., Bangalore★★★★★</p>
         </div>
-    </div>
-</section>
-<!--News Letter-->
-<section class="text-center">
-    <h1 class="text-3xl font:bold mt-5 text-center">Join Our News Letter</h1>
-    <p>SignUp for email newspaper to get exclusive discount ,updates and more...</p>
-    <input type="text" class=" border border-black p-2 m-3 " style="width: 80%;"><br>
-    <button class="bg-black text-white p-3 m-1 ">Subscribe</button>
-</section>
-<!--Footer-->
-<section class="bg-green-200 p-10 flex flex-col gap-5">
-    <div class="text-4xl font:bold">Greenden</div>
-    <p>Designed with a care for greener tomorrow!</p>
-    <p>@2025 Greenday.com</p>
-</section>
-</body>
+      </div>
+    </section>
+    <!--News Letter-->
+    <section class="text-center">
+      <h1 class="text-3xl font:bold mt-5 text-center">Join Our News Letter</h1>
+      <p>
+        SignUp for email newspaper to get exclusive discount ,updates and
+        more...
+      </p>
+      <input
+        type="text"
+        class="border border-black p-2 m-3"
+        style="width: 80%"
+      /><br />
+      <button class="bg-black text-white p-3 m-1">Subscribe</button>
+    </section>
+    <!--Footer-->
+    <section class="bg-green-200 p-10 mt-5 flex flex-col gap-5">
+      <div class="text-4xl font:bold">Greenden</div>
+      <p>Designed with a care for greener tomorrow!</p>
+      <p>@2025 Greenday.com</p>
+    </section>
+  </body>
 </html>

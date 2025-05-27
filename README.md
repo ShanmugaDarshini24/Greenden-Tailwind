@@ -1,4 +1,4 @@
-My Third Project using Tailwind-CSS only
+My Third Project in MERN Stack Journey using Tailwind-CSS only
  
 ![Screenshot 2025-05-25 at 20-17-31 Greenden](https://github.com/user-attachments/assets/3703c34f-b659-44de-90e6-472fe512351d)
 
